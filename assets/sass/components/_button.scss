@@ -1,0 +1,45 @@
+.button {
+    background-color: $nickel ;
+    color           : $white;
+    font-size       : $roboto-regular ;
+    font-size       : $small ;
+
+    &:hover {
+        background-color: $light-gray;
+        color: $white; 
+    }
+
+    &:focus {
+        background-color: $nickel;
+        color: $white;   
+        box-shadow: none;
+        border: 3px solid $light-gray;
+  
+    }
+
+
+
+}
+
+
+// .button {
+//     padding: .7rem 2rem;
+//     border-radius: 3px;
+//     font-family: $open-sans;
+//     font-size: $small;
+//     color: $white;
+//     }
+    
+//     .button_positive {
+//         background-color: $verdigris;
+//         border-color: $verdigris;
+//         &:hover {
+//         background-color: $medium-aquamarine;
+//         border-color: $medium-aquamarine;
+//         }
+//     }
+
+//     .button_align {
+//         text-align: center;
+//         }
+        

@@ -1,0 +1,15 @@
+.section__pagination {
+    background-color: $light-gray;
+}
+
+.page-link {
+    color: $eerie-black;
+    font-family: $roboto ;
+    font-weight: $roboto-regular;
+
+    &:hover {
+        background-color: $raisin-black;
+        color: $light-gray
+
+    }        
+}

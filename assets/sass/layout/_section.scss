@@ -1,0 +1,25 @@
+.section__title-font {
+    font-family: $playfair;
+    font-weight: $playfair-black ;
+    font-style: italic;
+}
+
+.section__title-font--size {
+    font-size: $x-large ;
+}
+
+.section__rrss-font {
+    font-family: $roboto;
+    font-weight: $roboto-regular ;
+    color: $fuzzy-wuzzy;
+}
+
+.section__rrss-font--size {
+    font-size: $large ;
+}
+
+.section__text{
+    font-family: $roboto ;
+    font-weight: $roboto-regular;
+    color: $nickel;
+}
