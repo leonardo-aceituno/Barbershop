@@ -8406,17 +8406,6 @@ img {
   font-weight: 300;
   color: #E56353; }
 
-.section__pagination {
-  background-color: #D1D1D1; }
-
-.page-link {
-  color: #121619;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; }
-  .page-link:hover {
-    background-color: #222323;
-    color: #D1D1D1; }
-
 .nav-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
@@ -8455,5 +8444,25 @@ img {
     color: #FFFFFF;
     box-shadow: none;
     border: 3px solid #D1D1D1; }
+
+.section__pagination {
+  background-color: #D1D1D1; }
+
+.page-link {
+  color: #121619;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+  .page-link:hover {
+    background-color: #222323;
+    color: #D1D1D1; }
+  .page-link:focus {
+    background-color: #222323;
+    color: #D1D1D1;
+    box-shadow: none;
+    border: 3px solid #D1D1D1; }
+  .page-link.active {
+    background-color: #222323;
+    color: #D1D1D1; }
 
 /*# sourceMappingURL=main.css.map */
